@@ -11,7 +11,10 @@ use ExtUtils::MakeMaker 6.30;
 my %WriteMakefileArgs = (
   "ABSTRACT" => "Grab and configurate recommendations by Amazon",
   "AUTHOR" => "Yasutaka ATARASHI <yakex\@cpan.org>",
-  "BUILD_REQUIRES" => {},
+  "BUILD_REQUIRES" => {
+    "Test::Exception" => 0,
+    "Test::More" => 0
+  },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
   },
@@ -24,7 +27,7 @@ my %WriteMakefileArgs = (
     "Template::Extract" => 0,
     "WWW::Mechanize" => 0
   },
-  "VERSION" => "v0.0.1",
+  "VERSION" => "v0.0.2",
   "test" => {
     "TESTS" => "t/*.t"
   }
