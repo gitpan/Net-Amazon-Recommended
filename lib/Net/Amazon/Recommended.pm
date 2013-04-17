@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 # ABSTRACT: Grab and configurate recommendations by Amazon
-our $VERSION = 'v0.0.2'; # VERSION
+our $VERSION = 'v0.0.3'; # VERSION
 
 use Carp;
 use Template::Extract;
@@ -325,7 +325,7 @@ Net::Amazon::Recommended - Grab and configurate recommendations by Amazon
 
 =head1 VERSION
 
-version v0.0.2
+version v0.0.3
 
 =head1 SYNOPSIS
 

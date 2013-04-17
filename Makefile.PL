@@ -23,11 +23,12 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Net::Amazon::Recommended",
   "PREREQ_PM" => {
+    "Data::Section" => 0,
     "DateTime::Format::Strptime" => 0,
     "Template::Extract" => 0,
     "WWW::Mechanize" => 0
   },
-  "VERSION" => "v0.0.2",
+  "VERSION" => "v0.0.3",
   "test" => {
     "TESTS" => "t/*.t"
   }
